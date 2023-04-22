@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Hi, I'm <span className='text-yellow-400'>Dmitro</span>",
+    "subtitle": "I develope web apps, blogs or interactive landing pages"
+  },
+  "navbar": {
+    "navbarItem1": "About",
+    "navbarItem2": "Work",
+    "navbarItem3": "Contact"
+  }
+}
