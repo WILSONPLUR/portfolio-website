@@ -37,24 +37,16 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-white backdrop-blur-sm bg-opacity-25" : "bg-transparent"
+        scrolled ? "bg-black backdrop-blur-sm bg-opacity-50" : "bg-transparent"
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        {/* <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-        </Link> */}
-        <ul>
+        <ul style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           {Object.keys(locales).map((locale) => (
             <li key={locale}>
               <button
                 style={{
+                  display: "flex",
                   fontWeight:
                     i18n.resolvedLanguage === locale ? "bold" : "normal",
                 }}
@@ -86,7 +78,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive(String(t("navbar.navbarItem2")))}
           >
-            <a href={`#work`}>{t("navbar.navbarItem2")}</a>
+            <a href={`#works`}>{t("navbar.navbarItem2")}</a>
           </li>
           <li
             className={`${

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -28,7 +29,12 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import libapp from "./libapp.png";
+import movieSearch from "./movie-search.jpg";
+
+//Videos
+import movieSearchAppDemo from "./videos/movie-search-app-demo.mp4";
+import libAppDemo from "./videos/lib-app-demo.mp4";
 
 export {
   logo,
@@ -58,5 +64,8 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  libapp,
+  movieSearch,
+  movieSearchAppDemo,
+  libAppDemo,
 };

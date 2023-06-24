@@ -7,5 +7,52 @@
     "navbarItem1": "About",
     "navbarItem2": "Work",
     "navbarItem3": "Contact"
+  },
+  "about": {
+    "subtitle": "Introduction",
+    "title": "Overview.",
+    "description": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+    "cards": {
+      "card1": {
+        "title": "Web Developer"
+      }
+    }
+  },
+  "myWorks": {
+    "title": "Projects.",
+    "subtitle": "My work",
+    "description": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "cards": {
+      "card1": {
+        "title": "Online library",
+        "description": "Small online library with auth, custom comments system, content system and responsive design."
+      },
+      "card2": {
+        "title": "Movie Search App",
+        "description": "A test project that I've done withing 2 days. App have functions such as searching movies, added movie to favourites list, view details of the movie."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact.",
+    "subtitle": "get in touch",
+    "fields": {
+      "yourName": {
+        "label": "Your Name",
+        "placeholder": "What's your name?"
+      },
+      "yourEmail": {
+        "label": "Your Email",
+        "placeholder": "What's your email?"
+      },
+      "yourMsg": {
+        "label": "Your Message",
+        "placeholder": "What do you want to say?"
+      }
+    },
+    "buttonText": {
+      "loading": "Sending...",
+      "static": "Send"
+    }
   }
 }
